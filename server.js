@@ -4,7 +4,7 @@ const dbConfig=require('./db');
 const roomsRoute=require('./route/roomsRoute');
 const usersRoute=require('./route/usersRoute');
 const bookingRoute=require('./route/bookingRoute');
-const port=process.env.BASE_URL || 5001;
+const port=process.env.BASE_URL
 app.use(express.json())
 
 app.use('/api/rooms',roomsRoute)
