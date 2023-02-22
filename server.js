@@ -4,8 +4,7 @@ const dbConfig=require('./db');
 const roomsRoute=require('./route/roomsRoute');
 const usersRoute=require('./route/usersRoute');
 const bookingRoute=require('./route/bookingRoute');
-const BOO='https://zinrooms-bookings.onrender.com'
-const port=process.env.BOO || process.env.PORT
+const port= process.env.BASE_PORT
 app.use(express.json())
 
 app.use('/api/rooms',roomsRoute)
