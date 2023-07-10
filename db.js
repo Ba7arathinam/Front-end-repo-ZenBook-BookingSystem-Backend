@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-var mongoURL = 'mongodb+srv://Balarathinam:Bala4321@cluster0.31zguzs.mongodb.net/zinroomz'
+var mongoURL ='mongodb+srv://Balarathinam:Bala4321@cluster0.31zguzs.mongodb.net/zinroomz?retryWrites=true&w=majority'
 
 function connectDB() {
 
